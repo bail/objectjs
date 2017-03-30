@@ -29,7 +29,8 @@ var mixin = { mixinProperty: 'mixinValue' };
 Object.assign(Subclass, mixin);
 ```
 - Mixins can be added to a class at any point during its lifespan, and will retroactively be applied to all existing instances of the class or its subclasses.
-- Mixin properties with identical names, on the same class, will override each other, 
+- Mixin properties with identical names, on the same class, will override each other
+
 ## Instantiation
 ```javascript
 var instance = Object.create(Subclass);
